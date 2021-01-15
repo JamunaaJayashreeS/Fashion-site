@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6PBNPYEZDC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6PBNPYEZDC');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nova+Cut|Nova+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/insta.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="floating-wpp.min.css">   
+  <script type="text/javascript" src="floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+</head>
+<style>
+  .slogan {
+    font-family: 'Montserrat', cursive;
+    color: black;
+    font-size: 36px;
+  }
+
+  .author {
+    font-family: 'Montserrat', cursive;
+    color: black;
+  }
+
+  .contact-info {
+    padding-top: 170px;
+  }
+</style>
+
+<body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6yanuSql_CsWd9okrBjRggDcuRk2pd_I",
+    authDomain: "one4all-b1147.firebaseapp.com",
+    projectId: "one4all-b1147",
+    storageBucket: "one4all-b1147.appspot.com",
+    messagingSenderId: "798262089706",
+    appId: "1:798262089706:web:ef62b5c7ab7b12af0bc493",
+    measurementId: "G-935NQHK7SF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <!-- navbar -->
+  <div id="WAButton"></div> 
+  <!-- navbar -->
+  <h1>One4all Boutique </h1>
+  <div class="container">
+    <ul id="gn-menu" class="gn-menu-main">
+      <li class="gn-trigger">
+        <a class="gn-icon gn-icon-menu"><span>One4all Boutique</span></a>
+        <nav class="gn-menu-wrapper">
+          <div class="gn-scroller">
+            <ul class="gn-menu">
+              <li><a class="gn-icon gn-icon-cog" href="index.html">Home</a></li>
+              <li><a class="gn-icon gn-icon-help" href="contact.html">ContactUs</a></li>
+            </ul>
+          </div><!-- /gn-scroller -->
+        </nav>
+      </li>
+    </ul>
+  </div>
+  <!-- navbar -->
+  <center>
+    <div class="contact-info">
+      <p class="slogan">"One4all Boutique"</p>
+      <p class="author"><b>Priyanga</b></p>
+      <p class="author"><b>Plot no.3,1nd street, om Shakthi kaligambal co-op nagar, mathur village, Madhavaram , Chennai-600060</b></p>
+      <p class="author"><b>6383449215</b></p>
+      <p class="author"><a href="https://www.instagram.com/one4all_boutique/" class="logo-name">On Instagram</a></p>
+    </div>
+  </center>
+  <div class="instagram-widget" data-user="one4all_boutique" data-header="yes" data-color="#3897f0" data-width="80vh">  
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+  <script src="js/insta.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/gnmenu.js"></script>
+  <script type="text/javascript">   
+  new gnMenu( document.getElementById( 'gn-menu' ) )
+    $(function () { 
+            $('#WAButton').floatingWhatsApp({ 
+                phone: '+916383449215', //WhatsApp Business phone number 
+                headerTitle: 'Chat with us on WhatsApp!', //Popup Title 
+                popupMessage: 'Hello, how can we help you?', //Popup Message 
+                showPopup: true, //Enables popup display 
+                buttonImage: '<img src="whatsapp.png" />', //Button Image 
+                //headerColor: 'crimson', //Custom header color 
+                //backgroundColor: 'crimson', //Custom background button color 
+                position: "right" //Position: left | right 
+  
+            }); 
+        }); 
+ </script> 
+</body>
+
+</html>

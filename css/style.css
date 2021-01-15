@@ -1,0 +1,204 @@
+  @import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Codystar|Josefin+Slab&display=swap');
+ 
+  #WAButton {
+      z-index: 2000;
+  }
+
+  #nav_bar {
+      z-index: 10000;
+  }
+
+  h1#title{
+      z-index: 10000;
+  }
+
+  ul#gn-menu{
+    z-index: 10000;
+}
+
+  h1 {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #f84258;
+    font-size: xx-large;
+    z-index: 10000;
+    }
+
+  /* navigation bar ends */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+ 
+  }
+
+  a {
+      outline: 0;
+  }
+
+  button:hover {
+      cursor: pointer;
+  }
+
+  body {
+      font-family: 'Montserrat', sans-serif;
+
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+
+  }
+
+  .head-of-offer {
+      color: black
+  }
+
+  .contact {
+      text-align: center;
+      color: #232323;
+  }
+
+  .name {
+      color: #232323;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .address {
+      color: #232323;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .no {
+      color: #232323;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .index-main-img {
+      padding-top: 50px;  
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width:748px) {
+      .index-main-img {
+          padding-top: 116px; 
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }
+
+  @media screen and (min-width:300px) {
+      .index-main-img {
+          padding-top: 70px;
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }
+
+  @media screen and (min-width:200px) {
+      .index-main-img {
+          padding-top: 100px;
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }
+
+  .row {
+      z-index: -1;
+  }
+
+ p.card-text {
+     color: #232323;
+     z-index: -1;
+ }
+
+ h5.card-title,h5.item-card-title{
+     color: #f84258;
+     font-size: large;
+     z-index: -1;
+ }
+
+ .col-md-4 item{
+    padding: 50px;
+ }
+
+  .head-of-offer {
+      padding-left: 50px;
+  }
+
+
+  @media screen and (max-width:400px) {
+      .head-of-offer {
+          font-size: 16px;
+      }
+
+      .para-of-offer {
+          font-size: 11px;
+      }
+  }
+
+  .footer-container {
+      align-content: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      background-color: black;
+      object-fit: cover;
+      padding-bottom: 30px;
+  }
+
+  .footer-container .footer-1,
+  .footer-2,
+  .footer-3,
+  h5,
+  h4,
+  h2,
+  h3,
+  h6,
+  p {
+      color: white;
+  }
+
+  .footer-container .footer-1 h2,
+  p,
+  h5,
+  h6 {
+      padding-left: 50px;
+      padding-top: 20px
+  }
+
+  .footer-container .footer-2,
+  .footer-3 {
+      padding-top: 70px;
+  }
+
+  .copy-right {
+      font-family: 'Sacramento', cursive;
+      text-align: center;
+      color: #f84258;
+      font-size: 27px;
+  }
+
+  .copy-right a {
+      color: #f84258;
+  }
+
+  @media screen and (max-width:593px) {
+
+      .footer-container .footer-1 h2,
+      p,
+      h5,
+      h6 {
+          padding-left: 10px;
+      }
+
+      .copy-right {
+          font-size: 27px;
+      }
+  }
